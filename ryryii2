@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Amanda Coffey Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+</script>
+  <style>
+    .affix {
+        top: 0;
+        width: 100%;
+    }
+  
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+    img.align-left {  margin-left:2%;
+ float: left;
+      margin-right: 2%;}
+      img.align-right{
+        margin-right:1%;
+        margin-top:10px;
+        float:right;
+      
+      }
+    
+
+
+  </style>
+</head>
+
+<body style="background:#d5f4e6">
+
+  <nav style="background:#034f84 !important" class="navbar  navbar-inverse" data-spy="affix">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" style=" font-family: 'Sansita', sans-serif;font-size:16pt; color:#80ced6;" href="#" >Amanda Coffey</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="#home">Home</a></li>
+          <li><a href="#zzz">About Me</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+
+            <ul class="dropdown-menu">
+              <li><a href="#p-school">College</a></li>
+              <li><a href="#p-personal">Personal</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#contact">Contact Me</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <div style="background:#d5f4e6" class="container-fluid">
+
+
+    <div id="home">
+      <div style="background:#92a8d1 !important" class="jumbotron ">
+
+
+        <img src="https://t8pmyq.bl3302.livefilestore.com/y3mpJKLNzG-QDgyxowPq1z9Bgdp7mG_T0GpNoqtClrsSjnRMZrFtXtL69u0u9ZbQzmwFfUJE77aAHp2jJ7-Y6mcr8WUIeHcFm4f8BXxwDwXeXYGoebTOe94i_Z2QfU5N1bZsgl4pxK87QgALvU7bYkjmet9AWGxIbbJQUEoubkeDzM?" class="img-responsive img-rounded  align-left " width="250" height="auto" alt="image of me">
+        <p style=" font-family: 'Sansita', sans-serif; font-size:25pt" ><br>Computer Science Student, with Experience with C, C++, CSS, Java, and HTML</p><br><hr style="height:5px;border:none;color:#333;background-color:#333;" > <p style=" font-family: 'Sansita', sans-serif; font-size:25pt" > Never Stop, Can't Stop </p></div>
+       <div id="zzz">
+
+      <h1>About Me</h1>
+      <p style="font-family: 'Slabo 27px', serif; font-size:14pt"> &nbsp  &nbsp I live, work, and study at SUNY Oneonta. I'm currently on track to earn a BS in Computer Science and I am working on my front-end certification. I have been tutoring students on the fundamentals of programming and C++.I have many interests including user interfaces and error prevention and resolution. My greatest programming joy is problem solving.<br>&nbsp  &nbsp  My personal interests are varying. I am currently working on automating my nano reef tank. Quantum and nature driven technologies tend to pique my interest. </p><br><br><em style="font-family: 'Slabo 27px', serif; font-size:20pt"> Everyday life is like programming, I guess. If you love something you can put beauty into it.~Donald Knuth</em>
+      </div>
+      <div id="p-school">
+
+        <h1>College Projects</h1>
+        <p style="font-family: 'Slabo 27px', serif; font-size:14pt">So far it's all been C and C++, but soon there will be a lot added here. For now enjoy this picture of my coral!</p>
+        <img src=https://t8plyq.bl3302.livefilestore.com/y3mOjYK9eAR8qVA5jvGYjNwDdNeaErhy-R7_lP5GJBAlrmfoAvnkiu4YBZqDdGhNVrMXA-LLWqZrq5h49UD4BVvToSiC-ISeJ7go1N7CsFzI06BPHQHYyHj0PFWz1OUE37m6N-UccE1tZ1trkG5Ruj5dBPvxSeZHCR8vpmaOjFpeYs?width=256&height=144&cropmode=none class="img-responsive img-rounded  " width="250" height="auto" alt="image of my corals">
+        
+      </div>
+      <div id="p-personal">
+
+        <h1>Personal Projects</h1>
+        <p style="font-family: 'Slabo 27px', serif; font-size:14pt">My personl project currently is to automate my reef tank. i have a 6.25 gallon reef tank with several inhabitants, but i am also planning on increasing the water volume to at least 40 gallons to minimize fluctuations in water parameters while testing my solutions. Currently I'm in the process of understanding the needed equipment, such as probes for temperature. I will update this section as I complete tasks that lead to my goal. </p>
+      </div>
+
+      <div id="contact">
+
+        <h1>Contact Me</h1>
+        <p style="font-family: 'Slabo 27px', serif; font-size:16pt">Contact information: <a href="mailto:amanda.coffey@outlook.com">amanda.coffey@outlook.com</a>.</p>
+    
+      </div>
+    </div>
+  </div>
+</body>
+<footer style="background:#034f84">
+  <a href="https://www.facebook.com/amanda.coffey.10">
+ <img src="http://takedesigns.com/wp-content/uploads/2013/02/fb-10.png" class="  align-right " width="30" height="30"> </a>
+  
+  <a href="https://www.instagram.com/peraxessen/">
+ <img src="http://files.gandi.ws/gandi56767/image/social-icon-instagram.png" class="  align-right " width="30" height="30"> </a>
+  <a href="https://www.linkedin.com/in/amanda-coffey-84b293138/">
+ <img src="http://www.althea-praktijk.nl/images/linkedin2.png" class="  align-right " width="30" height="30"> </a>
+  <p style="font-family: 'Slabo 27px', serif; font-size:12pt">By: Amanda Coffey </p><p style="font-family: 'Slabo 27px', serif; font-size:12pt">
+  Created: 2/17/2017</p>
+
+</footer>
+</html>
